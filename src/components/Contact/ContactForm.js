@@ -128,15 +128,15 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="bg-smoke space" data-bg-src="/assets/img/bg/contact_bg_1.png" id="contact-sec">
+        <div className="bg-smoke space" data-bg-src="./assets/img/bg/contact_bg_1.png" id="contact-sec">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-8">
                         <div className="title-area mb-35 text-xl-start text-center">
                             <span className="sub-title">
                                 <div className="icon-masking me-2">
-                                    <span className="mask-icon" data-mask-src="/assets/img/theme-img/title_shape_2.svg"></span>
-                                    <img src="/assets/img/theme-img/title_shape_2.svg" alt="shape" />
+                                    <span className="mask-icon" data-mask-src="./assets/img/theme-img/title_shape_2.svg"></span>
+                                    <img src="./assets/img/theme-img/title_shape_2.svg" alt="shape" />
                                 </div>contact us!
                             </span>
                             <h2 className="sec-title">Get in Touch with SkillMinds!</h2>

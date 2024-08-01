@@ -2,7 +2,7 @@ export const reviews = [
     {
       id: 1,
       image:
-        '/assets/img/Operatus.jpg',
+        './assets/img/Operatus.jpg',
       name: 'Chris Fezza',
       position:'CEO',
       company:'Operatus',

@@ -23,7 +23,7 @@ const Team = () => {
 
       <div ref={ref} className="tw-relative tw-w-full tw-flex tw-justify-center">
         <div className={`tw-max-w-7xl tw-overflow-hidden tw-rounded-lg tw-shadow-lg ${isVisible ? 'tw-translate-x-0 tw-opacity-100' : 'tw-translate-x-[-100%] tw-opacity-0'}`} style={{ transition: 'opacity 1s, transform 1s' }}>
-          <img src="/assets/img/team_bg.jpg" alt="Our Team" 
+          <img src="./assets/img/team_bg.jpg" alt="Our Team" 
           className="tw-w-full tw-object-cover " />
         </div>
       </div>

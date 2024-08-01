@@ -32,7 +32,7 @@ const ServiceModal = ({ service, onCancel }) => {
                 </div>
                 <div className="col-xxl-4 col-lg-4">
                   <aside className="sidebar-area">
-                    <div class="widget widget_banner  " data-bg-src="/assets/img/bg/widget_banner.jpg">
+                    <div class="widget widget_banner  " data-bg-src="./assets/img/bg/widget_banner.jpg">
                             <div class="widget-banner">
                                 <span class="text">CONTACT US NOW</span>
                                 <h2 class="title">You Need Help?</h2>
@@ -41,7 +41,7 @@ const ServiceModal = ({ service, onCancel }) => {
                      </div>
                      <div className=" tw-mb-8">
                               <div className="th-video">
-                                <img className="tw-w-full" src="/assets/img/service/service_inner_1.jpg" alt="service" />
+                                <img className="tw-w-full" src="./assets/img/service/service_inner_1.jpg" alt="service" />
                                 <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn tw-popup-video"><i className="fas fa-play"></i></a>
                               </div>
                      </div>

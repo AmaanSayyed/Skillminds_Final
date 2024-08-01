@@ -16,13 +16,13 @@ const MissionVision = () => {
         <CardComponent 
           title="Our Mission"
           content={missionContent}
-          image="/assets/img/vision.jpg"
+          image="./assets/img/vision.jpg"
           isReversed={false}/>
 
         <CardComponent 
           title="Our Vision"
           content={visionContent}
-          image="/assets/img/mission.jpg"
+          image="./assets/img/mission.jpg"
           isReversed={true}/>
         
       </div>

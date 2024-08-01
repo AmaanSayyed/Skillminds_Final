@@ -6,12 +6,12 @@ import 'swiper/swiper.min.css'; // Import Swiper styles
 
 const ClientSlider = () => {
   let brands = [
-    { src: '/assets/img/jet_logo.png', link: 'https://www.justeattakeaway.com/' },
-    { src: '/assets/img/Operatus_Logo.png', link: 'https://www.operatus.io/' },
-    { src: '/assets/img/panther_logo.jpg', link: 'https://panther.com' },
-    { src: '/assets/img/corpnet_logo.png', link: 'https://www.corpnet.com/' },
-    { src: '/assets/img/algoclouds.png', link: 'https://www.algotalenthub.com/' },
-    { src: '/assets/img/aquera-logo.png', link: 'https://aquera.com/' },
+    { src: './assets/img/jet_logo.png', link: 'https://www.justeattakeaway.com/' },
+    { src: './assets/img/Operatus_Logo.png', link: 'https://www.operatus.io/' },
+    { src: './assets/img/panther_logo.jpg', link: 'https://panther.com' },
+    { src: './assets/img/corpnet_logo.png', link: 'https://www.corpnet.com/' },
+    { src: './assets/img/algoclouds.png', link: 'https://www.algotalenthub.com/' },
+    { src: './assets/img/aquera-logo.png', link: 'https://aquera.com/' },
   ];
 
   // Swiper settings

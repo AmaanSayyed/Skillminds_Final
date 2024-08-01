@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="footer-wrapper footer-layout5 footer-layout12 footer-layout14" data-bg-src="/assets/img/bg/footer_bg.jpg">
+        <footer className="footer-wrapper footer-layout5 footer-layout12 footer-layout14" data-bg-src="./assets/img/bg/footer_bg.jpg">
         <div className="container th-container4">
             <div className="widget-area">
                 <div className="row justify-content-between">
@@ -54,12 +54,12 @@ const Footer = () => {
                             <div className="download-btn-wrap">
                                 <div className="mb-10">
                                     <a target="_blank" href="https://play.google.com/" className="download-btn">
-                                        <img src="/assets/img/normal/google-play.png" alt=""/>
+                                        <img src="./assets/img/normal/google-play.png" alt=""/>
                                     </a>
                                 </div>
                                 <div>
                                     <a target="_blank" href="https://www.apple.com/store" className="download-btn">
-                                        <img src="/assets/img/normal/app.png" alt=""/>
+                                        <img src="./assets/img/normal/app.png" alt=""/>
                                     </a>
                                 </div>
                             </div>

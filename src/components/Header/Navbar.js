@@ -33,9 +33,9 @@ const Navbar = () => {
             <div className="col-auto">
               <div className="header-logo">
                 <a href="/">
-                  <span data-mask-src="/assets/img/skillminds_logo.png"></span>
+                  <span data-mask-src="./assets/img/skillminds_logo.png"></span>
                   <img
-                    src="/assets/img/skillminds_logo.png"
+                    src="./assets/img/skillminds_logo.png"
                     alt="Webteck"
                     style={{ width: "12rem" }}
                   />

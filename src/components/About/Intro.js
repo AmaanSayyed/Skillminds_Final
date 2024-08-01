@@ -14,10 +14,10 @@ const Intro = () => {
                 <div className="col-xl-6 mb-30 mb-xl-0">
                     <div className="img-box1">
                         <div className="img1">
-                            <img src="/assets/img/about.jpg" alt="About"/>
+                            <img src="./assets/img/about.jpg" alt="About"/>
                         </div>
                         <div className="shape1">
-                            <img src="/assets/img/normal/about_shape_1.png" alt="shape"/>
+                            <img src="./assets/img/normal/about_shape_1.png" alt="shape"/>
                         </div>
                         <div className="year-counter">
                             <h3 className="year-counter_number"><span className="counter-number">25</span></h3>
@@ -31,8 +31,8 @@ const Intro = () => {
                         <div className="title-area mb-35">
                             <span className="sub-title">
                                 <div className="icon-masking me-2">
-                                    <span className="mask-icon" data-mask-src="/assets/img/theme-img/title_shape_1.svg"></span>
-                                    <img src="/assets/img/theme-img/title_shape_1.svg" alt="shape"/>
+                                    <span className="mask-icon" data-mask-src="./assets/img/theme-img/title_shape_1.svg"></span>
+                                    <img src="./assets/img/theme-img/title_shape_1.svg" alt="shape"/>
                                 </div>Our Story
                             </span>
                             <h2 className="sec-title">Our Journey: Building <span className="text-theme">SkillMinds</span> from Vision to Reality </h2> 
@@ -41,7 +41,7 @@ const Intro = () => {
                         <div className="about-feature-wrap">
                             <div className="about-feature">
                                 <div className="about-feature_icon ">
-                                    <img src="/assets/img/icon/about_feature_1_1.svg" alt="Icon"/>
+                                    <img src="./assets/img/icon/about_feature_1_1.svg" alt="Icon"/>
                                 </div>
                                 <div className="media-body">
                                     <h3 className="about-feature_title">Certified Company</h3>
@@ -50,7 +50,7 @@ const Intro = () => {
                             </div>
                             <div className="about-feature">
                                 <div className="about-feature_icon">
-                                    <img src="/assets/img/icon/about_feature_1_2.svg" alt="Icon"/>
+                                    <img src="./assets/img/icon/about_feature_1_2.svg" alt="Icon"/>
                                 </div>
                                 <div className="media-body">
                                     <h3 className="about-feature_title">Expert Developers</h3>

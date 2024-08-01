@@ -6,7 +6,7 @@ const Contents = () => {
   const title = "Driving Success through Innovation ";
 
   return (
-    <div className="th-hero-wrapper hero-16" id="hero" data-bg-src="/assets/img/home-bg.jpg">
+    <div className="th-hero-wrapper hero-16" id="hero" data-bg-src="./assets/img/home-bg.jpg">
       <div className="hero-inner">
         <div className="container th-container4">
           <div className="row justify-content-center align-items-center">
@@ -14,9 +14,9 @@ const Contents = () => {
               <div className="hero-style16">
                 <span className="sub-title ">
                   <div className="icon-masking me-2">
-                    <span className="mask-icon" data-mask-src="/assets/img/theme-img/title_shape_4.svg"></span>
+                    <span className="mask-icon" data-mask-src="./assets/img/theme-img/title_shape_4.svg"></span>
                     <img
-                      src="/assets/img/theme-img/title_shape_4.svg"
+                      src="./assets/img/theme-img/title_shape_4.svg"
                       alt="shape"
                     />
                   </div>
@@ -37,13 +37,13 @@ const Contents = () => {
                     {/* use map */}
                     <div className="client-thumb-group">
                       <div className="thumb">
-                        <img src="/assets/img/profile_rv_1.jpg" alt="avater" />
+                        <img src="./assets/img/profile_rv_1.jpg" alt="avater" />
                       </div>
                       <div className="thumb">
-                        <img src="/assets/img/profile_rv_2.jpg" alt="avater" />
+                        <img src="./assets/img/profile_rv_2.jpg" alt="avater" />
                       </div>
                       <div className="thumb">
-                        <img src="/assets/img/profile_rv_1.jpg" alt="avater" />
+                        <img src="./assets/img/profile_rv_1.jpg" alt="avater" />
                       </div>
                     </div>
                     <div className="cilent-box">
@@ -87,7 +87,7 @@ const Contents = () => {
             <div className="col-xl-6">
               <div className="th-hero-image">
                 <div className="th-hero-thumb">
-                  <img src="/assets/img/hero/hero_img_15_1.png" alt="img" />
+                  <img src="./assets/img/hero/hero_img_15_1.png" alt="img" />
                 </div>
               </div>
             </div>
