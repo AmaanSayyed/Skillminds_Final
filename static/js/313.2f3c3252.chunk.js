@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkskillminds_web=self.webpackChunkskillminds_web||[]).push([[313],{4313:(e,t,s)=>{s.r(t),s.d(t,{default:()=>a});var l=s(3587),n=s(579);const a=()=>{const{admin:e}=(0,l.Z)();return(0,n.jsxs)("div",{className:"tw-relative",children:[(0,n.jsx)("h1",{className:"tw-text-center tw-text-4xl tw-text-blue-500 tw-underline tw-my-10",children:"Admin Dashboard"}),(0,n.jsxs)("h2",{className:"tw-text-center tw-text-2xl",children:["Welcome ",e.username]})]})}}}]);
+//# sourceMappingURL=313.2f3c3252.chunk.js.map
