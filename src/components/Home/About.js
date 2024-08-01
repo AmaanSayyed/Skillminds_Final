@@ -66,8 +66,6 @@ const About = () => {
             </div>
         </div>
     </div>
-    <div className="shape-mockup" data-bottom="0%" data-right="0%"><img src="./assets/img/shape/about_shape.png" alt="shape"/>
-    </div>
     </section>
 </div>
 

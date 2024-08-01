@@ -1,4 +1,7 @@
+import useMask from "../../hooks/useMask";
+
 const Process = () => {
+    useMask('#process-sec');
     const processes=[
         {no:"01",src:"./assets/img/icon/process_1_1.svg",title:"DESIGN",description:"Integrate and automate your Salesforce solution, making it a reality."},
         {no:"02",src:"./assets/img/icon/process_1_2.svg",title:"DEVELOPMENT",description:"Meet changing business requirements with our Salesforce Development services. "},
@@ -10,7 +13,7 @@ const Process = () => {
        
 // Process Area  
 
-    <section className="process-area4 th-radius3 space" id="process-sec" style={{backgroundColor:"#203370"}}>
+    <section className="process-area4 th-radius3 space" id="process-sec" data-bg-src="/assets/img/bg/appointment_bg_3.jpg">
         <div className="container th-container4">
             <div className="title-area text-center">
                 <span className="sub-title text-white">

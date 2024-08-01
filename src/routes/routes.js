@@ -1,11 +1,14 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
+import adminRoutes from './adminRoutes';
+import { AuthContextProvider } from '../context/AuthContext';
 
 // Lazy loading components
 const HomePage = lazy(() => import('../pages/Index'));
 const AboutPage = lazy(() => import('../pages/About'));
 const TeamPage = lazy(()=>import('../pages/OurTeam'));
 const ContactPage = lazy(()=>import('../pages/Contact'));
+const ErrorPage = lazy(()=>import('../pages/Error'));
 // Spinner component
 const Spinner = () => {
     return (
@@ -24,8 +27,7 @@ const handleFallback = (Component) => {
     </Suspense>
   );
 };
-
-const routes = createBrowserRouter([
+const mainRoutes = [
   {
     path: '/',
     element: handleFallback(HomePage),
@@ -42,9 +44,21 @@ const routes = createBrowserRouter([
     path: '/contact-us',
     element: handleFallback(ContactPage),
   },
-  
+  {
+    path: '*',
+    element : handleFallback(ErrorPage)
+  }
+]
+
+const routes = createBrowserRouter([
+  ...mainRoutes,  
+  ...adminRoutes,
 ]);
 
 export default function Routes() {
-  return <RouterProvider router={routes} />;
+  return (
+    <AuthContextProvider>
+       <RouterProvider router={routes} />
+    </AuthContextProvider>
+  )
 }

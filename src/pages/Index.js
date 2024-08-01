@@ -5,6 +5,7 @@ import CliendSlider from '../components/Home/ClientSlider'
 import Service from '../components/Home/Service'
 import About from '../components/Home/About'
 import Process from '../components/Home/Process'
+import Testimonials from "../components/Home/Testimonials";
 
 export default function Home(){
     return(
@@ -14,7 +15,7 @@ export default function Home(){
             <Service/>
             <About/>
             <Process/>
-           
+            <Testimonials/>
          </Layout> 
     )
 }

@@ -6,16 +6,12 @@ import 'swiper/swiper.min.css'; // Import Swiper styles
 
 const ClientSlider = () => {
   let brands = [
-    './assets/img/brand/brand_8_1.svg',
-    './assets/img/brand/brand_8_2.svg',
-    './assets/img/brand/brand_8_3.svg',
-    './assets/img/brand/brand_8_4.svg',
-    './assets/img/brand/brand_8_5.svg',
-    './assets/img/brand/brand_8_1.svg',
-    './assets/img/brand/brand_8_2.svg',
-    './assets/img/brand/brand_8_3.svg',
-    './assets/img/brand/brand_8_4.svg',
-    './assets/img/brand/brand_8_5.svg',
+    { src: '/assets/img/jet_logo.png', link: 'https://www.justeattakeaway.com/' },
+    { src: '/assets/img/Operatus_Logo.png', link: 'https://www.operatus.io/' },
+    { src: '/assets/img/panther_logo.jpg', link: 'https://panther.com' },
+    { src: '/assets/img/corpnet_logo.png', link: 'https://www.corpnet.com/' },
+    { src: '/assets/img/algoclouds.png', link: 'https://www.algotalenthub.com/' },
+    { src: '/assets/img/aquera-logo.png', link: 'https://aquera.com/' },
   ];
 
   // Swiper settings
@@ -40,7 +36,7 @@ const ClientSlider = () => {
   };
 
   // Use the custom hook
-  useSwiper(swiperParams);
+  // useSwiper(swiperParams);
 
   return (
     <div className="brand-sec8 bg-title overflow-hidden">
@@ -48,10 +44,23 @@ const ClientSlider = () => {
         <div className="slider-area text-center">
           <h2 className="tw-text-white">Our Clients</h2>
           <Swiper {...swiperParams}>
-            {brands.map((src, index) => (
+            {brands.map((brand, index) => (
               <SwiperSlide key={index}>
-                <a href="" className="brand-box style4">
-                  <img src={src} alt="Brand Logo" />
+                <a href={brand.link} target="_blank" className="tw-relative brand-box style4">
+                  <img src={brand.src}  alt="Brand Logo" 
+
+                  //added custom styles for centering logos
+                  className={brand.src.includes('jet_logo.png')
+                    ? 'tw-w-50 tw-h-16 tw-absolute tw-top-5 tw-left-8'
+                    : brand.src.includes('Operatus_Logo.png')
+                    ? 'tw-w-50 tw-h-16 tw-absolute tw-top-4 tw-left-0'
+                    : brand.src.includes('corpnet_logo.png')
+                    ? 'tw-w-36 tw-h-12 tw-absolute tw-top-5 tw-left-12'
+
+                    : ''
+                    
+                  }
+                  />
                 </a>
               </SwiperSlide>
             ))}

@@ -54,12 +54,12 @@ const Footer = () => {
                             <div className="download-btn-wrap">
                                 <div className="mb-10">
                                     <a target="_blank" href="https://play.google.com/" className="download-btn">
-                                        <img src="./Skillminds_Dev_Website/assets/img/normal/google-play.png" alt=""/>
+                                        <img src="/assets/img/normal/google-play.png" alt=""/>
                                     </a>
                                 </div>
                                 <div>
                                     <a target="_blank" href="https://www.apple.com/store" className="download-btn">
-                                        <img src="./Skillminds_Dev_Website/assets/img/normal/app.png" alt=""/>
+                                        <img src="/assets/img/normal/app.png" alt=""/>
                                     </a>
                                 </div>
                             </div>

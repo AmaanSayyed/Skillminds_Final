@@ -2,7 +2,7 @@ import InputField from "./InputField";
 import TextAreaField from "./TextAreaField";
 
 
-const ContactForm = ({handleSubmit,formData,handleChange,handleBlur,errors}) => {
+const Form = ({handleSubmit,formData,handleChange,handleBlur,errors}) => {
     return (
         <form onSubmit={handleSubmit} className="contact-form ajax-contact" method='POST'>
             <div className="row">
@@ -22,5 +22,5 @@ const ContactForm = ({handleSubmit,formData,handleChange,handleBlur,errors}) => 
     );
 }
  
-export default ContactForm;
+export default Form;
 

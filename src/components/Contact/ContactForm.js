@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import useMask from '../../hooks/useMask';
-import ContactForm from '../Form/ContactForm';
+import Form from '../Form/Form';
 import SubmitMessage from '../Form/SubmitMessage';
 
-const Form = () => {
+const ContactForm = () => {
     // Custom hook for applying masks (e.g., input masks)
     useMask();
 
@@ -66,7 +66,7 @@ const Form = () => {
         }
         if (!formData.phone.trim()) {
             newErrors.phone = 'Phone number is required';
-        } else if (!/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/.test(formData.phone)) {
+        } else if(!/^(\+\d{1,2}\s?)?(\d{10}|\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})$/.test(formData.phone)) {
             newErrors.phone = 'Phone number is invalid';
         }
         if (!formData.organizationName.trim()) {
@@ -145,7 +145,7 @@ const Form = () => {
                         <div className="tw-container tw-relative tw-w-full tw-h-full">
                             {!showMessage ? (
                                 // Show the contact form if the message is not shown
-                                <ContactForm handleSubmit={handleSubmit} formData={formData} handleChange={handleChange} errors={errors} />
+                                <Form handleSubmit={handleSubmit} formData={formData} handleChange={handleChange} errors={errors} />
                             ) : (
                                 // Show the success message if the form is successfully submitted
                                 <SubmitMessage onClose={handleClose} />
@@ -158,4 +158,4 @@ const Form = () => {
     );
 };
 
-export default Form;
+export default ContactForm;

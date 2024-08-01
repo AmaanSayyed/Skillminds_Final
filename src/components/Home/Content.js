@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import useMask from "../../hooks/useMask";
 
 const Contents = () => {
-  useMask();
+  useMask('#hero');
   const title = "Driving Success through Innovation ";
 
   return (
@@ -12,8 +12,9 @@ const Contents = () => {
           <div className="row justify-content-center align-items-center">
             <div className="col-xl-6">
               <div className="hero-style16">
-                <span className="sub-title">
+                <span className="sub-title ">
                   <div className="icon-masking me-2">
+                    <span className="mask-icon" data-mask-src="/assets/img/theme-img/title_shape_4.svg"></span>
                     <img
                       src="/assets/img/theme-img/title_shape_4.svg"
                       alt="shape"
@@ -55,8 +56,10 @@ const Contents = () => {
                         <i className="fa-sharp fa-solid fa-star"></i>
                       </div>
                       <h4 className="cilent-box_counter">
-                        <span className="counter-number">2960</span>+ Client
-                        Reviews
+                        <Link to="#testimonial-sec">
+                        <span className="counter-number"> Client
+                        Reviews</span>
+                        </Link>
                       </h4>
                     </div>
                   </div>
@@ -64,7 +67,7 @@ const Contents = () => {
                 <div className="hero-counter_wrapp">
                   <div className="hero-counter">
                     <h2 className="counter-title mb-0">
-                      <span className="counter-number">30</span>k+
+                      <span className="counter-number">15</span>+
                     </h2>
                     <span className="hero-counter_text">
                       Happily active client’s
@@ -72,10 +75,10 @@ const Contents = () => {
                   </div>
                   <div className="hero-counter">
                     <h2 className="counter-title mb-0">
-                      <span className="counter-number">25</span>
+                      <span className="counter-number">25+</span>
                     </h2>
                     <span className="hero-counter_text">
-                      Years of experience in startup building
+                    Years of Cumulative Experience in Startup Building
                     </span>
                   </div>
                 </div>

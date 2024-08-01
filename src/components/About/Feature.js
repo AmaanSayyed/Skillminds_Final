@@ -1,6 +1,9 @@
+import useMask from "../../hooks/useMask";
+
 const Feature = () => {
+    useMask('#feature-sec')
     return (
-    <div className="space" data-bg-src="/assets/img/bg/why_bg_1.png">
+    <div className="space" data-bg-src="/assets/img/bg/why_bg_1.png" id="feature-sec">
         <div className="container">
             <div className="row align-items-center flex-row-reverse">
                 <div className="col-xxl-7 col-xl-6 mb-30 mb-xl-0">

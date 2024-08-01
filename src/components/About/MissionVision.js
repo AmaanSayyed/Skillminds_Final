@@ -1,37 +1,33 @@
 import React from 'react';
+import CardComponent from './CardComponent';
 
 const MissionVision = () => {
-    //refactor this code-25/07/24
-    //change text -make readable
+    //refactor this code-25/07/24 
+    //change text -make readable -Done 31/7/24
+    const missionContent = ` At Skillminds, we are on a mission to unleash the potential of cloud <span class="tw-bg-purple-200 tw-px-1 tw-rounded">technologies like Salesforce CRM, GCP, and AWS</span> to deliver exceptional IT consulting services. Our dedication to creating <span class="tw-bg-purple-200 tw-px-1 tw-rounded">innovative solutions</span> and developing in-house products reflects our deep commitment to social responsibility. Through our expertise in <span class="tw-bg-purple-200 tw-px-1 tw-rounded">mobile development, test automation, and business transformation</span>, we strive to foster a culture of excellence and continuous improvement, attracting the best and brightest to join our team.`;
+  
+    const visionContent = `At Skillminds, we envision becoming <span class="tw-bg-purple-200 tw-px-1 tw-rounded">India's leading IT consulting company</span> within the next decade, powered by our passion for cloud technologies such as <span class="tw-bg-purple-200 tw-px-1 tw-rounded">Salesforce CRM, GCP, and AWS</span>. We are committed to delivering <span class="tw-bg-purple-200 tw-px-1 tw-rounded">innovative solutions for our clients</span> and developing in-house products that address <span class="tw-bg-purple-200 tw-px-1 tw-rounded">real-life societal challenges</span>, reflecting our strong sense of social responsibility. Our expertise in <span class="tw-bg-purple-200 tw-px-1 tw-rounded">mobile development, test automation, and digital business transformation</span>, combined with our focus on being <span class="tw-bg-purple-200 tw-px-1 tw-rounded">the best workplace</span>, ensures we attract <span class="tw-bg-purple-200 tw-px-1 tw-rounded">highly qualified and certified resources</span> with industry-leading knowledge.`;
 
   return (
     
     <div className="tw-container tw-mx-auto tw-py-12">
       <div className="tw-flex tw-flex-col tw-items-center tw-justify-center tw-mb-16 tw-gap-16">
         
-        {/* Mission Section */}
-        <div className="tw-shadow-lg tw-rounded-md tw-flex tw-flex-col-reverse sm:tw-flex-row tw-gap-12 tw-w-full sm:tw-w-3/4 tw-items-center tw-bg-slate-100 tw-p-8">
-          <div className="img tw-w-full sm:tw-w-1/2 tw-flex tw-justify-center">
-            <img src="/assets/img/mission.jpg" alt="mission" className="tw-rounded-full tw-w-max tw-object-cover tw-shadow-md"/>
-          </div>
-          <div className="content tw-w-full sm:tw-w-1/2 tw-px-2">
-            <h2 className="tw-text-3xl tw-text-blue-500 tw-font-semibold tw-mb-4">Our Mission</h2>
-            <p className="tw-text-justify tw-text-slate-700 tw-font-light sm:tw-text-xl">At SkillMinds, our mission is to empower businesses through innovative and transformative cloud-based solutions. We strive to deliver unparalleled Salesforce consulting and product development services, driving success and digital transformation for organizations of all sizes. Our team of highly skilled professionals is dedicated to helping our clients achieve their business goals through cutting-edge technology and personalized support.</p>
-          </div>
-        </div>
+        <CardComponent 
+          title="Our Mission"
+          content={missionContent}
+          image="/assets/img/vision.jpg"
+          isReversed={false}/>
+
+        <CardComponent 
+          title="Our Vision"
+          content={visionContent}
+          image="/assets/img/mission.jpg"
+          isReversed={true}/>
         
-        {/* Vision Section */}
-        <div className="tw-shadow-lg tw-rounded-md tw-flex tw-flex-col-reverse sm:tw-flex-row-reverse tw-gap-12 tw-w-full sm:tw-w-3/4 tw-items-center tw-bg-slate-100 tw-p-8">
-          <div className="img tw-w-full sm:tw-w-1/2 tw-flex tw-justify-center">
-            <img src="/assets/img/vision.jpg" alt="vision" className="tw-rounded-full tw-w-max tw-object-cover tw-shadow-md"/>
-          </div>
-          <div className="content tw-w-full sm:tw-w-1/2 tw-px-2">
-            <h2 className="tw-text-3xl tw-text-blue-500 tw-font-semibold tw-mb-4">Our Vision</h2>
-            <p className="tw-text-justify tw-text-slate-700 tw-font-light  sm:tw-text-xl">Our vision at SkillMinds is to be the leading provider of comprehensive Salesforce solutions and digital transformation services globally. We aim to continuously innovate and expand our expertise across various domains, including eCommerce, agriculture, CRM, and pharmaceuticals. By fostering a culture of excellence and collaboration, we aspire to be the trusted partner for businesses seeking to harness the power of technology to thrive in a rapidly evolving digital landscape.</p>
-          </div>
-        </div>
       </div>
     </div>
+    
   );
 }
 

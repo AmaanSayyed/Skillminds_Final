@@ -8,7 +8,7 @@ const HeaderTop = () => {
                             <ul>
                                 <li><i className="fa-regular fa-phone"></i><a href="tel:+919322825631">+91-9322825631</a></li>
                                 <li className="d-none d-xl-inline-block"><i className="fa-sharp fa-regular fa-location-dot"></i>
-                                    <span>Ruddhi Sankul-1st floor,Nashik ,India </span>
+                                    <span>Ruddhi Sankul-1st/2nd floor,Nashik ,India </span>
                                 </li>
                                 <li><i className="fa-regular fa-envelope"></i><a href="mailto:info@skillminds.in">info@skillminds.in</a>
                                 </li>
