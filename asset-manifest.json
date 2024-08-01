@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Skillminds_Final/static/css/main.38dec4e3.css",
-    "main.js": "/Skillminds_Final/static/js/main.1d8f37e8.js",
+    "main.js": "/Skillminds_Final/static/js/main.33f35927.js",
     "static/css/636.7de59b0c.chunk.css": "/Skillminds_Final/static/css/636.7de59b0c.chunk.css",
-    "static/js/636.08a1c0df.chunk.js": "/Skillminds_Final/static/js/636.08a1c0df.chunk.js",
-    "static/js/249.d54d01b7.chunk.js": "/Skillminds_Final/static/js/249.d54d01b7.chunk.js",
+    "static/js/636.6185d70b.chunk.js": "/Skillminds_Final/static/js/636.6185d70b.chunk.js",
+    "static/js/249.c5acb85a.chunk.js": "/Skillminds_Final/static/js/249.c5acb85a.chunk.js",
     "static/css/856.339c9504.chunk.css": "/Skillminds_Final/static/css/856.339c9504.chunk.css",
-    "static/js/856.e92b61f2.chunk.js": "/Skillminds_Final/static/js/856.e92b61f2.chunk.js",
-    "static/js/728.5196ad6f.chunk.js": "/Skillminds_Final/static/js/728.5196ad6f.chunk.js",
-    "static/js/517.76e8794a.chunk.js": "/Skillminds_Final/static/js/517.76e8794a.chunk.js",
+    "static/js/856.696795a8.chunk.js": "/Skillminds_Final/static/js/856.696795a8.chunk.js",
+    "static/js/728.0c148e0c.chunk.js": "/Skillminds_Final/static/js/728.0c148e0c.chunk.js",
+    "static/js/517.cfffe964.chunk.js": "/Skillminds_Final/static/js/517.cfffe964.chunk.js",
     "static/js/546.e66a9c45.chunk.js": "/Skillminds_Final/static/js/546.e66a9c45.chunk.js",
     "static/js/547.78fa7410.chunk.js": "/Skillminds_Final/static/js/547.78fa7410.chunk.js",
     "static/js/313.2f3c3252.chunk.js": "/Skillminds_Final/static/js/313.2f3c3252.chunk.js",
@@ -23,14 +23,14 @@
     "static/media/slick.ttf": "/Skillminds_Final/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Skillminds_Final/static/media/slick.295183786cd8a1389865.woff",
     "main.38dec4e3.css.map": "/Skillminds_Final/static/css/main.38dec4e3.css.map",
-    "main.1d8f37e8.js.map": "/Skillminds_Final/static/js/main.1d8f37e8.js.map",
+    "main.33f35927.js.map": "/Skillminds_Final/static/js/main.33f35927.js.map",
     "636.7de59b0c.chunk.css.map": "/Skillminds_Final/static/css/636.7de59b0c.chunk.css.map",
-    "636.08a1c0df.chunk.js.map": "/Skillminds_Final/static/js/636.08a1c0df.chunk.js.map",
-    "249.d54d01b7.chunk.js.map": "/Skillminds_Final/static/js/249.d54d01b7.chunk.js.map",
+    "636.6185d70b.chunk.js.map": "/Skillminds_Final/static/js/636.6185d70b.chunk.js.map",
+    "249.c5acb85a.chunk.js.map": "/Skillminds_Final/static/js/249.c5acb85a.chunk.js.map",
     "856.339c9504.chunk.css.map": "/Skillminds_Final/static/css/856.339c9504.chunk.css.map",
-    "856.e92b61f2.chunk.js.map": "/Skillminds_Final/static/js/856.e92b61f2.chunk.js.map",
-    "728.5196ad6f.chunk.js.map": "/Skillminds_Final/static/js/728.5196ad6f.chunk.js.map",
-    "517.76e8794a.chunk.js.map": "/Skillminds_Final/static/js/517.76e8794a.chunk.js.map",
+    "856.696795a8.chunk.js.map": "/Skillminds_Final/static/js/856.696795a8.chunk.js.map",
+    "728.0c148e0c.chunk.js.map": "/Skillminds_Final/static/js/728.0c148e0c.chunk.js.map",
+    "517.cfffe964.chunk.js.map": "/Skillminds_Final/static/js/517.cfffe964.chunk.js.map",
     "546.e66a9c45.chunk.js.map": "/Skillminds_Final/static/js/546.e66a9c45.chunk.js.map",
     "547.78fa7410.chunk.js.map": "/Skillminds_Final/static/js/547.78fa7410.chunk.js.map",
     "313.2f3c3252.chunk.js.map": "/Skillminds_Final/static/js/313.2f3c3252.chunk.js.map",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.38dec4e3.css",
-    "static/js/main.1d8f37e8.js"
+    "static/js/main.33f35927.js"
   ]
 }
