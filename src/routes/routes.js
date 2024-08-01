@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import adminRoutes from './adminRoutes';
 import { AuthContextProvider } from '../context/AuthContext';
@@ -50,7 +50,7 @@ const mainRoutes = [
   }
 ]
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
   ...mainRoutes,  
   ...adminRoutes,
 ]);

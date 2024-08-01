@@ -54,30 +54,30 @@ const Life = () => {
 
   const images = {
     socials: [
-      "assets/img/Skillminds/Socials/sm_grp_1.jpg",
-      "assets/img/Skillminds/Socials/sm_grp_5.jpg",
-      "assets/img/Skillminds/Socials/sm_grp_4.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_1.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_5.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_4.jpg",
     ],
     life: [
-      "assets/img/Skillminds/Socials/sm_grp_4.jpg",
-      "assets/img/Skillminds/Socials/sm_grp_5.jpg",
-      "assets/img/Skillminds/Socials/sm_grp_1.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_4.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_5.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_1.jpg",
     ],
     events: [
-      "assets/img/Skillminds/Socials/sm_grp_1.jpg",
-      "assets/img/Skillminds/Socials/sm_grp_2.jpg",
-      "assets/img/Skillminds/Socials/sm_grp_5.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_1.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_2.jpg",
+      "/assets/img/Skillminds/Socials/sm_grp_5.jpg",
     ],
     officeGallery: [
       // "assets/img/Skillminds/2ndfloor/2nd_floor_2.jpg", change the resolution
-      "assets/img/Skillminds/2ndfloor/2nd_floor_3.jpg",
-      "assets/img/Skillminds/2ndfloor/2nd_floor_4.jpg",
-      "assets/img/Skillminds/2ndfloor/2nd_floor_5.jpg",
-      "assets/img/Skillminds/2ndfloor/2nd_floor_6.jpg",
-      "assets/img/Skillminds/2ndfloor/2nd_floor_7.jpg",
-      "assets/img/Skillminds/2ndfloor/2nd_floor_8.jpg",
-      "assets/img/Skillminds/2ndfloor/2nd_floor_9.jpg",
-      "assets/img/Skillminds/2ndfloor/2nd_floor_10.jpg",
+      "/assets/img/Skillminds/2ndfloor/2nd_floor_3.jpg",
+      "/assets/img/Skillminds/2ndfloor/2nd_floor_4.jpg",
+      "/assets/img/Skillminds/2ndfloor/2nd_floor_5.jpg",
+      "/assets/img/Skillminds/2ndfloor/2nd_floor_6.jpg",
+      "/assets/img/Skillminds/2ndfloor/2nd_floor_7.jpg",
+      "/assets/img/Skillminds/2ndfloor/2nd_floor_8.jpg",
+      "/assets/img/Skillminds/2ndfloor/2nd_floor_9.jpg",
+      "/assets/img/Skillminds/2ndfloor/2nd_floor_10.jpg",
     ],
   };
 

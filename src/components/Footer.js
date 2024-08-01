@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="footer-wrapper footer-layout5 footer-layout12 footer-layout14" data-bg-src="./assets/img/bg/footer_bg.jpg">
+        <footer className="footer-wrapper footer-layout5 footer-layout12 footer-layout14" data-bg-src="/assets/img/bg/footer_bg.jpg">
         <div className="container th-container4">
             <div className="widget-area">
                 <div className="row justify-content-between">

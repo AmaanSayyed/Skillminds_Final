@@ -15,7 +15,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu }) => {
         <div className="mobile-logo">
           <a href="/">
             <span data-mask-src="" className="mask-icon"></span>
-            <img src="./assets/img/skillminds_logo.png" alt="Webteck" style={{ width: '12rem' }} />
+            <img src="/assets/img/skillminds_logo.png" alt="Webteck" style={{ width: '12rem' }} />
           </a>
         </div>
 

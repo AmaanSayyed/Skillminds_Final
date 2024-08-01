@@ -13,7 +13,7 @@ const About = () => {
                 <div className="col-xl-6 mb-30 mb-xl-0">
                     <div className="img-box17 pe-xl-5">
                         <div className="img1">
-                            <img src="./assets/img/normal/about_15_1.jpg" alt="About"/>
+                            <img src="/assets/img/normal/about_15_1.jpg" alt="About"/>
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ const About = () => {
                     <div className="title-area mb-35">
                         <span className="sub-title text-capitalize fs-20">
                             <div className="icon-masking me-2">
-                                <img src="./assets/img/theme-img/title_shape_4.svg" alt="shape"/>
+                                <img src="/assets/img/theme-img/title_shape_4.svg" alt="shape"/>
                             </div>About SkillMinds
                         </span>
                         <h2 className="sec-title">Your Salesforce Consulting Partner
@@ -32,7 +32,7 @@ const About = () => {
                         <div>
                             <div className="about-feature style5">
                                 <div className="about-feature_icon">
-                                    <img src="./assets/img/icon/about_feature_2_1.svg" alt="Icon"/>
+                                    <img src="/assets/img/icon/about_feature_2_1.svg" alt="Icon"/>
                                 </div>
                                 <div className="media-body">
                                     <h3 className="about-feature_title">Seamless Salesforce Integration</h3>
@@ -40,7 +40,7 @@ const About = () => {
                             </div>
                             <div className="about-feature style5">
                                 <div className="about-feature_icon">
-                                    <img src="./assets/img/icon/about_feature_2_2.svg" alt="Icon"/>
+                                    <img src="/assets/img/icon/about_feature_2_2.svg" alt="Icon"/>
                                 </div>
                                 <div className="media-body">
                                     <h3 className="about-feature_title">24x7 Support</h3>
@@ -58,7 +58,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="about-img">
-                            <img src="./assets/img/normal/about_15_2.jpg" alt=""/>
+                            <img src="/assets/img/normal/about_15_2.jpg" alt=""/>
                         </div>
                     </div>
 

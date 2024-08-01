@@ -37,13 +37,13 @@ const Contents = () => {
                     {/* use map */}
                     <div className="client-thumb-group">
                       <div className="thumb">
-                        <img src="./assets/img/profile_rv_1.jpg" alt="avater" />
+                        <img src="/assets/img/profile_rv_1.jpg" alt="avater" />
                       </div>
                       <div className="thumb">
-                        <img src="./assets/img/profile_rv_2.jpg" alt="avater" />
+                        <img src="/assets/img/profile_rv_2.jpg" alt="avater" />
                       </div>
                       <div className="thumb">
-                        <img src="./assets/img/profile_rv_1.jpg" alt="avater" />
+                        <img src="/assets/img/profile_rv_1.jpg" alt="avater" />
                       </div>
                     </div>
                     <div className="cilent-box">
@@ -87,7 +87,7 @@ const Contents = () => {
             <div className="col-xl-6">
               <div className="th-hero-image">
                 <div className="th-hero-thumb">
-                  <img src="./assets/img/hero/hero_img_15_1.png" alt="img" />
+                  <img src="/assets/img/hero/hero_img_15_1.png" alt="img" />
                 </div>
               </div>
             </div>
